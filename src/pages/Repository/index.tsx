@@ -12,7 +12,7 @@ interface RepositoryParams {
   repository: string;
 }
 
-interface Repository {
+interface RepositoryData {
   full_name: string;
   description: string;
   stargazers_count: number;
@@ -36,7 +36,7 @@ interface Issue {
 const Repository: React.FC = () => {
   const { params } = useRouteMatch<RepositoryParams>()
 
-  const [repository, setRepository] = useState<Repository | null>(null)
+  const [repository, setRepository] = useState<RepositoryData | null>(null)
   const [issues, setIssues] = useState<Issue[]>([]);
 
   useEffect(() => {

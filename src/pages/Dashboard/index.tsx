@@ -7,7 +7,7 @@ import logo from '../../assets/logo.svg';
 
 import { Title, Form, Repository, Error } from './styles';
 
-interface Repository {
+interface RepositoryData {
   full_name: string;
   description: string;
   owner: {
@@ -19,7 +19,7 @@ interface Repository {
 const Dashboard: React.FC = () => {
   const [newRepo, setNewRepo] = useState('');
   const [inputError, setInputError] = useState('');
-  const [repositories, setRepositories] = useState<Repository[]>(() => {
+  const [repositories, setRepositories] = useState<RepositoryData[]>(() => {
     const storageRepository = localStorage.getItem('@GitHubExplorer: repositories');
 
     if(storageRepository) {
@@ -42,7 +42,7 @@ const Dashboard: React.FC = () => {
     }
 
     try {
-      const response = await api.get<Repository>(`repos/${newRepo}`);
+      const response = await api.get<RepositoryData>(`repos/${newRepo}`);
 
       const repository = response.data;
 
