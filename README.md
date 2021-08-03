@@ -10,7 +10,7 @@ Plataforma de localização de repositórios do GitHub
 
 </br>
 
-<h2>Ferramentas:</h2>
+<h2>Tools:</h2>
 <p>As ferramentas que foram utilizadas na construção do projeto:</p>
 
 * [Yarn](https://classic.yarnpkg.com/lang/en/)
@@ -25,13 +25,13 @@ Figma: [GitHub Explorer](https://www.figma.com/file/HOCmxfrElzLpI75LdzFLia/Githu
 
 </br>
 
-<h2>Web:</h2>
+<h2>Getting Started</h2>
 
 ```bash
 # Clone este repositório
 $ git clone https://github.com/MatheusSESH/GitHub-Explorer.git
 
-# Entre na pasta web
+# Entre na pasta GitHub-Explorer
 $ cd GitHub-Explorer
 
 # Instale as dependências
@@ -41,7 +41,7 @@ $ yarn install
 $ yarn start
 ```
 
-<h2>Licença</h2>
+<h2>License</h2>
 
 <p>Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/MatheusSESH/GitHub-Explorer/edit/master/license">LICENSE</a> para mais detalhes.</p>
 </div>
