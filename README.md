@@ -13,7 +13,6 @@ Plataforma de localização de repositórios do GitHub
 <h2>Ferramentas:</h2>
 <p>As ferramentas que foram utilizadas na construção do projeto:</p>
 
-* [Node.js](https://nodejs.org/en/)
 * [Yarn](https://classic.yarnpkg.com/lang/en/)
 * [React](https://reactjs.org)
 * [TypeScript](https://www.typescriptlang.org)
@@ -22,7 +21,7 @@ Plataforma de localização de repositórios do GitHub
 
 <h2>Layout:</h2>
 
-Figma: [GitHub Explorer](https://www.figma.com/file/xL2SiFEW8pQ98BHqKZYay0/Happy-Web-(Copy)?node-id=0%3A1)
+Figma: [GitHub Explorer](https://www.figma.com/file/HOCmxfrElzLpI75LdzFLia/Github-Explorer?node-id=0%3A1)
 
 </br>
 
@@ -44,5 +43,5 @@ $ yarn start
 
 <h2>Licença</h2>
 
-<p>Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/MatheusSESH/happy/blob/master/license">LICENSE</a> para mais detalhes.</p>
+<p>Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/MatheusSESH/GitHub-Explorer/edit/master/license">LICENSE</a> para mais detalhes.</p>
 </div>
